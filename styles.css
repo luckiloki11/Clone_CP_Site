@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 3.3em;
+    background-image: url("../Images/1863.jpg");
+}
+
+.our-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 21px;
+    padding-bottom: 75px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: maroon;
+  }
+
+  .active {
+      background-color: midnightblue;
+  }
